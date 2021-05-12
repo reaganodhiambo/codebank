@@ -1,0 +1,11 @@
+.language-menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3em;
+
+}
+
+li{
+    text-decoration: none;
+    list-style: none;
+}

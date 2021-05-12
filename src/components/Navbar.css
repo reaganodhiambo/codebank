@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background: rgb(243, 143, 210);
+    clip-path: polygon(50% 0%, 100% 0%, 30% 100%, 0 100%, 0% 0);
+}
+
+.navbar-logo {
+    margin: 2rem;
+    color: blue;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    padding: 0 0.2rem;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    /* background-color: grey; */
+}
+
+.nav-menu::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 90vh;
+        background: rgb(78, 20, 185);
+        clip-path: polygon(0 0, 100% 0, 100% 53%, 0 12%);
+
+    
+}
+
+.nav-item {
+    padding: 0 20px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.description{
+    margin: 4rem;
+    max-width: 40%;
+}
+
+.description > h2{
+    font-size: 3em;
+    margin-bottom: 2rem;
+}
+
+.description > p{
+    margin-bottom: 2rem;
+}
+Button{
+    margin-right: 40px;
+}
+.lan{
+    height: 10vh;
+    margin: 4rem;
+    margin-top: 8em;
+}
