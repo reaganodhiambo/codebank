@@ -1,0 +1,18 @@
+.donate{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(248, 245, 245);
+    text-align: center;
+    justify-content: center;
+}
+.btnss{
+    padding: 30px;
+}
+.donate > h2{
+    font-size: 2rem;
+}
+
+.extr{
+    padding: 16px 50px;
+}

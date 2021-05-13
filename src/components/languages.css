@@ -1,8 +1,9 @@
 .language-menu{
     display: flex;
     justify-content: space-between;
-    padding-top: 3em;
-
+    position: relative;  
+    height: 10vh;
+    margin: 0 4rem;
 }
 
 li{

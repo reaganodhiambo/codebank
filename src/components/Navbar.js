@@ -3,11 +3,18 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { Button } from './Button'
 import Languages from './languages';
+import Section1 from './section1';
+import Section2 from './Section2';
+import Donate from './donate';
+
 
 function Navbar() {
     
     return (
+        <div>
         <nav className="navbar">
+            <div className="alert">
+            <h3>Still working on it, adding components bla bla bla </h3></div>
             <div className="navbar-container">
                 <Link to = "/" className="navbar-logo" >
                     <strong>CodeBank</strong>
@@ -51,17 +58,27 @@ function Navbar() {
                     </p>
                     <Button buttonStyle='btn--primary'>
                          GET STARTED
-                        
                     </Button>
                     <Button className="btn" buttonStyle='btn--outline'>
                         LEARN MORE
                     </Button>  
             </div>
+            
+            </nav>
             <div className="lan">
                 <Languages />
             </div>
-            
-        </nav>
+            <div className="section1">
+                <Section1 />
+            </div>
+            <div className="section2">
+                <Section2 />
+            </div>
+            <div className="donate">
+                <Donate />
+            </div>
+            </div>
+        
     )
 }
 

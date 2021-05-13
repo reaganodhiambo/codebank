@@ -1,0 +1,51 @@
+.section {
+    display: flex;
+    margin: 130px 4em;
+    justify-content: space-between;
+}
+
+.txt {
+    flex-basis: 45%;
+}
+
+.txt>h1 {
+    color: rgb(224, 59, 59);
+    font-size: 2em;
+    margin-top: 1.5em;
+    margin-bottom: .7em;
+}
+
+.txt>p {
+    padding: 5px 0;
+    padding-bottom: 10px;
+    font-weight: 400;
+    font-size: larger;
+}
+
+.btn1 {
+    padding: 15px;
+    border-radius: 0;
+}
+
+.btn-two {
+    cursor: pointer;
+    background: transparent;
+    border: 1.5px solid blue;
+    color: Blue;
+    font-size: 18px;
+}
+
+.btn-one {
+    cursor: pointer;
+    margin-right: 60px;
+    border: none;
+    padding: 15px;
+    background: rgb(224, 59, 59);
+    color: #fff;
+    font-size: 18px;
+}
+
+.img{
+    align-self: center;
+    margin: auto;
+}

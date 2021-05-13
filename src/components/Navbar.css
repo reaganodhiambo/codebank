@@ -5,8 +5,17 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.alert {
+    background-color: #17a2b8;
+    color: #c3c3c3;
+    z-index: 999;
+    width: 100%;
+    height: 4vh;
+    text-align: center;
+}
+
 .navbar {
-    position: absolute;
+    position: relative;
     height: 100vh;
     width: 100%;
 }
@@ -19,7 +28,7 @@
     left: 0;
     width: 100%;
     height: 90vh;
-    background: rgb(243, 143, 210);
+    background: #f8dbdb;
     clip-path: polygon(50% 0%, 100% 0%, 30% 100%, 0 100%, 0% 0);
 }
 
@@ -45,18 +54,18 @@
     /* background-color: grey; */
 }
 
-.nav-menu::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        width: 100%;
-        height: 90vh;
-        background: rgb(78, 20, 185);
-        clip-path: polygon(0 0, 100% 0, 100% 53%, 0 12%);
+.nav-menu::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background: rgb(78, 20, 185);
+    clip-path: polygon(0 0, 100% 0, 100% 53%, 0 12%);
 
-    
+
 }
 
 .nav-item {
@@ -70,24 +79,25 @@
     font-size: 1.1em;
 }
 
-.description{
+.description {
     margin: 4rem;
     max-width: 40%;
 }
 
-.description > h2{
+.description>h2 {
     font-size: 3em;
     margin-bottom: 2rem;
 }
 
-.description > p{
+.description>p {
     margin-bottom: 2rem;
 }
-Button{
+
+Button {
     margin-right: 40px;
+    font-weight: 700;
 }
-.lan{
-    height: 10vh;
-    margin: 4rem;
-    margin-top: 8em;
-}
+
+/* .section1{
+    margin: 100px 4rem;
+} */
