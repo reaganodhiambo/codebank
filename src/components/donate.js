@@ -7,7 +7,7 @@ function Donate() {
         <div className="donate">
             <h2>Help us grow this project. Partner with us today</h2>
             <div className="btnss">
-            <Link to='/sign-up'>
+            <Link to='/sign-up' className="padss">
                 <button className="btn1 btn-three">
                     Become A Contributor
                  </button>

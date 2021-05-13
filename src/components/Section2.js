@@ -13,7 +13,7 @@ function Section2() {
                     aliquid itaque voluptas est pariatur, iste corporis. Quos hic
                 saepe voluptatum deserunt inventore perferendis.</p>
                 <div className="install">
-                    <Link to='/install'>
+                    <Link to='/install' className="button1">
                         <button className="btn1 btn-one">
                            Install
                         </button>
@@ -29,8 +29,8 @@ function Section2() {
                     Quae omnis beatae reiciendis adipisci non, officiis provident,
                     aliquid itaque voluptas est pariatur, iste corporis. Quos hic
                 saepe voluptatum deserunt inventore perferendis.</p>
-                <div className="sign-up">
-                    <Link to='/sign-up'>
+                <div className="sign-up" >
+                    <Link to='/sign-up' className="button2">
                         <button className="btn1 btn-three">
                            Sign Up
                         </button>

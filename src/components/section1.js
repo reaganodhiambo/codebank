@@ -15,15 +15,17 @@ function Section1() {
                 Voluptas inventore veritatis vel, voluptate ipsa quam est
                 quasi facilis sed modi amet magni at!
                 </p>
-                <button className="btn1 btn-one">
-                    Learn More
-                </button>
+                <div className="cet">
+                    <button className="btn1 btn-one">
+                        Learn More
+                    </button>
                 <button className="btn1 btn-two">
                     View On Github
                 </button>
+                </div>
             </div>
             <div className="img">
-                <img src={section1} alt="sec" width={600} height={400} />
+                <img className="pic" src={section1} alt="sec" width={600} height={400} />
             </div>
         </div>
     )

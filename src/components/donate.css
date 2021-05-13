@@ -1,4 +1,5 @@
 .donate{
+    position: relative;
     height: 30vh;
     display: flex;
     flex-direction: column;
@@ -7,6 +8,8 @@
     justify-content: center;
 }
 .btnss{
+    display: flex;
+    justify-content: center;
     padding: 30px;
 }
 .donate > h2{
@@ -15,4 +18,17 @@
 
 .extr{
     padding: 16px 50px;
+}
+
+@media only screen and (max-width: 768px){
+    .donate{
+        width: 100%;
+        height: auto;
+    }
+    .btnss{
+        flex-direction: column;
+    }
+    .padss{
+        margin-bottom: 40px;
+    }
 }
