@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from './Button';
 import './section1.css'
 import section1 from './images/chess3.jpg';
 
