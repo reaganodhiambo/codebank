@@ -103,7 +103,7 @@ Button {
 } */
 
 @media only screen and (max-width: 768px) {
-    .navbar, .lan{
+    .navbar{
         display: none;
     }
 }

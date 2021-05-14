@@ -10,3 +10,12 @@ li{
     text-decoration: none;
     list-style: none;
 }
+
+@media only screen and (max-width: 769px){
+    .language-menu{
+        margin: auto;
+        padding: 20px;
+        flex-direction: row;
+        height: auto;
+    }
+}
